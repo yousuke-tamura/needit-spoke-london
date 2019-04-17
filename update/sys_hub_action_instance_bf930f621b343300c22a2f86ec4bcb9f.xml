@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment>ログ出力</comment>
+        <compiled_snapshot display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">7b930f621b343300c22a2f86ec4bcb55</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 06:13:54</sys_created_on>
+        <sys_id>bf930f621b343300c22a2f86ec4bcb9f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_335163_needit_sp">0e153e261bf03300c22a2f86ec4bcbff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">0e153e261bf03300c22a2f86ec4bcbff</sys_scope>
+        <sys_update_name>sys_hub_action_instance_bf930f621b343300c22a2f86ec4bcb9f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 06:13:54</sys_updated_on>
+        <ui_id>77607ba5-9f77-4c9a-8e0c-0d9226073e3a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bf930f621b343300c22a2f86ec4bcb9f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf930f621b343300c22a2f86ec4bcb9f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 06:13:54</sys_created_on>
+        <sys_id>3f930f621b343300c22a2f86ec4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 06:13:54</sys_updated_on>
+        <value>Input ➔ Reason</value>
+        <variable display_value="">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+</record_update>

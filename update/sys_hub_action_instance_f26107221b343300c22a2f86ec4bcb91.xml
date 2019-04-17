@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Need It Taskレコードを新規作成して、Dannyにアサイン</comment>
+        <compiled_snapshot display_value="Create Task">2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">468efeea1bf03300c22a2f86ec4bcb17</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 06:04:16</sys_created_on>
+        <sys_id>f26107221b343300c22a2f86ec4bcb91</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_335163_needit_sp">0e153e261bf03300c22a2f86ec4bcbff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">0e153e261bf03300c22a2f86ec4bcbff</sys_scope>
+        <sys_update_name>sys_hub_action_instance_f26107221b343300c22a2f86ec4bcb91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 06:15:16</sys_updated_on>
+        <ui_id>d3d55cfe-0937-4feb-a590-167fedc3fada</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f26107221b343300c22a2f86ec4bcb91"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f26107221b343300c22a2f86ec4bcb91</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 06:13:53</sys_created_on>
+        <sys_id>27930f621b343300c22a2f86ec4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 06:13:53</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f26107221b343300c22a2f86ec4bcb91</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 06:04:16</sys_created_on>
+        <sys_id>326107221b343300c22a2f86ec4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 06:04:16</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f26107221b343300c22a2f86ec4bcb91"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>f26107221b343300c22a2f86ec4bcb91</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 06:13:53</sys_created_on>
+        <sys_id>a3930f621b343300c22a2f86ec4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 06:13:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>short_description=NeedIt Tasks are not getting closed in a timely manner^description=Identify cause for overdue NeedIt Task{{subflow.needit_task.number}}^assigned_to={"display":"Danny Dales","value":"ab9375961bf03300c22a2f86ec4bcb85"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>f26107221b343300c22a2f86ec4bcb91</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 06:04:16</sys_created_on>
+        <sys_id>be6107221b343300c22a2f86ec4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 06:04:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value>short_description=NeedIt Tasks are not getting closed in a timely manner^description=Identify cause for overdue NeedIt Task{{subflow.needit_task.number}}^assigned_to={"display":"Danny Dales","value":"ab9375961bf03300c22a2f86ec4bcb85"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>f26107221b343300c22a2f86ec4bcb91</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 06:13:53</sys_created_on>
+        <sys_id>ef930f621b343300c22a2f86ec4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 06:13:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>f26107221b343300c22a2f86ec4bcb91</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-17 06:04:16</sys_created_on>
+        <sys_id>fa6107221b343300c22a2f86ec4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 06:04:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
